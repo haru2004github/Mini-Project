@@ -1,0 +1,82 @@
+:root {
+    --main-black:  #202020;
+    --blue: #0074e4;
+    --white: #f2f2f2;
+    --green:#00D68F;
+    --red:#EF4444;
+
+
+  }
+
+form{
+    border: 1px solid var(--blue) ;
+    padding: 30px;
+    background-color: rgba(49, 49, 49, 0.24);
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 1.5rem;
+    color: var(--blue);
+    margin-bottom: 20px;
+}
+
+input{
+    width: 100%;
+    background-color: rgb(58, 58, 58);
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+    border:1px solid transparent;
+    color: var(--white);
+
+}
+
+label{
+    margin-left: 5px;
+    font-size: small;
+
+}
+.mt-10{
+    margin-top: 10px;
+}
+button{
+    background-color: var(--blue);
+    border-radius: 10px ;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 25px;
+    color: white;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #0084ff;
+}
+
+input:focus{
+    outline: none;
+    border:0.2px solid var(--blue);
+
+}
+
+.border-red{
+    border: 1px solid var(--red);
+}
+
+.border-green{
+    border: 1px solid var(--green);
+}
+
+.name_alert_message,.password_alert_message{
+    position: relative;
+}
+
+small{
+    margin-left: 10px;
+    font-size: 0.8rem;
+    color: var(--red);
+}

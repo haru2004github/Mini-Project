@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List App</title>
+
+    <!-- Mian css link  -->
+    <link rel="stylesheet" href="../Css/main.css">
+
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- header start -->
+    <header>
+        <nav class="">
+            <ul class="flex items-center gap-x-2">
+                <!-- Alert box  -->
+                <li class="">
+                    <a class="" href="../alert_box_page/index.html">
+                        Alert Box
+                    </a>
+                </li>
+
+                <!-- todolist  -->
+                <li class="">
+                    <a class="" href="../index.html">
+                        To Do
+                    </a>
+                </li>
+
+                <!-- Form  -->
+                <li class="">
+                    <a class="active" href="./index.html">
+                        Form
+                    </a>
+                </li>
+            </ul>
+        </nav>                                             
+    </header>
+    <!-- header end -->
+
+    <!-- main start  -->
+    <main class="flex justify-center items-center">
+
+        <section class="" >
+            <form action="" >
+                <h1>Login your account!</h1>
+                <div class="mt-10">
+                    <label for="Name">Name</label>
+                    <input id="name" type="text" autocomplete="off" placeholder="Enter your name..." >
+                    <div class="name_alert_message hidden">
+                        <small class="">Name is required</small>
+                    </div>
+                    
+                </div>
+                <div class="mt-10">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" autocomplete="off" placeholder="Enter your email..." >
+                    <div class="email_alert_message hidden">
+                        <small class="">Email is required</small>
+                    </div>
+                </div>
+
+
+                <div class="mt-10">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" autocomplete="off" placeholder="Enter your password..." >
+                    <div class="password_alert_message hidden">
+                        <small class="">Password is required</small>
+                    </div>
+                </div>
+
+
+                <div class="">
+                    <button class="" type="submit">  
+                        Login
+                    </button>
+                </div>
+            </form>
+        </section>
+        
+    </main>
+    <!-- main end -->
+
+    <!-- footer start  -->
+    <footer>
+
+    </footer>
+    <!-- footer end -->
+    <script src="./app.js"></script>
+</body>
+</html>

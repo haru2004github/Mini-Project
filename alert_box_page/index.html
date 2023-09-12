@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List App</title>
+
+    <!-- Mian css link  -->
+    <link rel="stylesheet" href="../Css/main.css">
+
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- header start -->
+    <header>
+        <nav class="">
+            <ul class="flex items-center gap-x-2">
+                <!-- Alert box  -->
+                <li class="">
+                    <a class="active" href="./index.html">
+                        Alert Box
+                    </a>
+                </li>
+
+                <!-- todolist  -->
+                <li class="">
+                    <a class="" href="../index.html">
+                        To Do
+                    </a>
+                </li>
+
+                <!-- Form  -->
+                <li class="">
+                    <a class="" href="../form_validation_page/index.html">
+                        Form
+                    </a>
+                </li>
+            </ul>
+        </nav>                                             
+    </header>
+    <!-- header end -->
+
+    <!-- main start  -->
+    <main class="flex justify-center items-center">
+
+        <!-- layer start -->
+        <section class="layer opacity-0 pointer-event-none "></section>
+        <!-- layer start -->
+
+        <!-- open dialog btn start -->
+        <section>
+            <button class="showBtn ">
+                Open Dialog
+            </button>
+        </section>
+        <!-- open dialog btn start -->
+
+        <!-- dialog start  -->
+        <section class="dialog opacity-0 pointer-event-none ">
+            <div class="card">
+                <div class="">
+                    <h1>
+                        Payment successful
+                    </h1>
+                    <p>
+                        Your payment has been successful submitted.We've sent you an email with all of the details of your order.
+                    </p>
+                    <div class="">
+                        <button class="closeBtn" type="button">
+                            Got it,thanks!
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- dialog end -->
+        
+    </main>
+    <!-- main end -->
+
+    <!-- footer start  -->
+    <footer>
+
+    </footer>
+    <!-- footer end -->
+
+    <script src="./app.js"></script>
+</body>
+</html>

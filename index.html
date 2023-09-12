@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List App</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Mian css link  -->
+    <link rel="stylesheet" href="./Css/main.css">
+
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="./to_do_list_page/style.css">
+</head>
+<body>
+    <!-- header start -->
+    <header>
+        <nav class="">
+            <ul class="flex items-center gap-x-2">
+                <!-- Alert box  -->
+                <li class="">
+                    <a class="" href="./alert_box_page/index.html">
+                        Alert Box
+                    </a>
+                </li>
+
+                <!-- todolist  -->
+                <li class="">
+                    <a class="active" href="./index.html">
+                        To Do
+                    </a>
+                </li>
+
+                <!-- Form  -->
+                <li class="">
+                    <a class="" href="./form_validation_page/index.html">
+                        Form
+                    </a>
+                </li>
+            </ul>
+        </nav>                                             
+    </header>
+    <!-- header end -->
+
+    <!-- main start  -->
+    <main class="flex justify-center items-center">
+        <section class="grid grid-cols-3 gap-x-3" >
+
+            <!-- Add tasks start -->
+            <article>
+                <form class="addInput" action="" method="">
+                    <div class="flex gap-x-2 ">
+                        <input id="addTaskInput" type="text" class="" placeholder="Add Task!">
+                    
+                        <div class="">
+                            <button type="submit" class="btn addBtn">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                    <small  class="addAlert hidden">
+                        
+                    </small>
+                </form>
+                
+            </article>
+            <!-- add tasks end -->
+
+            <!-- search and to to list page start -->
+            <article class="cols-span-2 listCard" >
+                <div class="">
+
+                    <!-- search list input start -->
+                    <form action="" method="" class="">
+                        <div class="flex items-center">
+                            <input class="searchInput" type="text" list="todolist" placeholder="Search..."> 
+                            <div class="">
+                                <button type="submit" class="btn searchBtn">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <small  class="searchAlert hidden">
+                        
+                        </small>
+                    </div>
+                    <!-- search list input end -->
+
+                    <!-- total display start -->
+                    <div class="totalDisplay ">
+                        
+                    </div>
+                    <!-- total display end -->
+
+
+                    <!-- to do list start  -->
+                    <div class="showList">
+                        
+                    </div>
+                    <!-- to do list end  -->
+
+                    
+                    
+
+                </div>
+            </article>
+            <!-- search and to to list page end -->
+
+        </section>
+    </main>
+    <!-- main end -->
+
+    <!-- footer start  -->
+    <footer>
+
+    </footer>
+    <!-- footer end -->
+
+    <script src="./to_do_list_page/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+:root {
+    --main-black:  #202020;
+    --blue: #0074e4;
+    --white: #f2f2f2;
+    --green:#00D68F;
+    --red:#EF4444;
+    --pink :#9710ff;
+
+
+  }
+
+.text-red{
+    color:var(--red);
+}
+.addInput,.listCard{
+    padding: 20px;
+    background-color: rgba(49, 49, 49, 0.24);
+    border-radius: 20px;
+    
+}
+
+.addInput input,.listCard input{
+    width: 100%;
+    background-color: rgb(58, 58, 58);
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+    border:1px solid transparent;
+    color: var(--white);
+
+}
+
+.btn{
+    cursor: pointer;
+    width: 40px ;
+    height: 40px ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 10px;
+    box-shadow: none;
+    outline: none;
+    transition: 0.5s;
+    color: #f2f2f2;
+    border: none;
+}
+
+.addInput input:focus, .listCard input:focus{
+    outline: none;
+    border:0.2px solid var(--blue);
+
+}
+
+.addBtn{
+    background-color: var(--blue);
+}
+
+.searchBtn{
+    background-color: var(--blue);
+}
+
+.showList{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(43, 43, 43);
+    height: 600px;
+    max-height:600;
+    overflow-y: scroll;
+    border-radius: 10px;
+    row-gap: 20px;
+    padding:20px;
+}
+
+.content{
+    width: 100%;
+    background-color: var(--main-black);
+    border-radius: 10px;
+    padding:10px 20px;
+    color: rgb(224, 224, 224);
+    font-weight: 400;
+
+}
+
+.editBtn{
+
+    background-color: var(--pink) ;
+
+}
+
+.deleteBtn{
+    background-color: var(--red);
+}
+
+.updateBtn{
+    background-color: var(--pink);
+}
+
+small{
+    margin-left: 10px;
+    font-size: 0.8rem;
+    color: var(--red);
+}
+
+.border-red{
+    border: 1px solid var(--red)!important;
+}
+
+.hidden{
+    display: none;
+}
+
+i{
+    z-index: 0;
+}
+
+.totalDisplay{
+    display: inline-block;
+    margin-top: 10px;
+    background-color:var(--blue);
+    color: white;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius:15px 15px 0 0 ;
+    
+}
